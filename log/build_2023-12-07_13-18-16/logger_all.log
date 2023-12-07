@@ -1,0 +1,104 @@
+[2.287s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.287s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6ce53dfd30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6ce54261a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6ce54261a0>>)
+[2.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/robotws/src/spot_description'
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.488s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'spot_description'
+[2.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.839s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ubuntu/robotws/install
+[2.861s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 417 installed packages in /opt/ros/humble
+[2.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_target' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.005s] DEBUG:colcon.colcon_core.verb:Building package 'spot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotws/src/spot_description/build/spot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotws/src/spot_description/install/spot_description', 'merge_install': False, 'path': '/home/ubuntu/robotws/src/spot_description', 'symlink_install': True, 'test_result_base': None}
+[3.023s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.043s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotws/src/spot_description' with build type 'ament_cmake'
+[3.044s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotws/src/spot_description'
+[3.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.092s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotws/src/spot_description/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotws/src/spot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotws/src/spot_description/install/spot_description
+[5.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotws/src/spot_description/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotws/src/spot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotws/src/spot_description/install/spot_description
+[5.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotws/src/spot_description/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotws/src/spot_description/build/spot_description -- -j3 -l3
+[5.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotws/src/spot_description/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotws/src/spot_description/build/spot_description -- -j3 -l3
+[5.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotws/src/spot_description/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotws/src/spot_description/build/spot_description
+[6.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_description)
+[6.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotws/src/spot_description/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotws/src/spot_description/build/spot_description
+[6.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description' for CMake module files
+[6.616s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description' for CMake config files
+[6.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_description', 'cmake_prefix_path')
+[6.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/hook/cmake_prefix_path.ps1'
+[6.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/hook/cmake_prefix_path.dsv'
+[6.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/hook/cmake_prefix_path.sh'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/bin'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/lib/pkgconfig/spot_description.pc'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/lib/python3.10/site-packages'
+[6.652s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/bin'
+[6.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.ps1'
+[6.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.dsv'
+[6.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.sh'
+[6.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.bash'
+[6.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.zsh'
+[6.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotws/src/spot_description/install/spot_description/share/colcon-core/packages/spot_description)
+[6.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_description)
+[6.820s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description' for CMake module files
+[6.821s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description' for CMake config files
+[6.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_description', 'cmake_prefix_path')
+[6.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/hook/cmake_prefix_path.ps1'
+[6.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/hook/cmake_prefix_path.dsv'
+[6.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/hook/cmake_prefix_path.sh'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/bin'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/lib/pkgconfig/spot_description.pc'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/lib/python3.10/site-packages'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotws/src/spot_description/install/spot_description/bin'
+[6.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.ps1'
+[6.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.dsv'
+[6.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.sh'
+[6.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.bash'
+[6.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotws/src/spot_description/install/spot_description/share/spot_description/package.zsh'
+[6.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotws/src/spot_description/install/spot_description/share/colcon-core/packages/spot_description)
+[6.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.890s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.939s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.973s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotws/src/spot_description/install/local_setup.ps1'
+[7.050s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robotws/src/spot_description/install/_local_setup_util_ps1.py'
+[7.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotws/src/spot_description/install/setup.ps1'
+[7.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotws/src/spot_description/install/local_setup.sh'
+[7.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robotws/src/spot_description/install/_local_setup_util_sh.py'
+[7.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotws/src/spot_description/install/setup.sh'
+[7.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotws/src/spot_description/install/local_setup.bash'
+[7.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotws/src/spot_description/install/setup.bash'
+[7.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotws/src/spot_description/install/local_setup.zsh'
+[7.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotws/src/spot_description/install/setup.zsh'
