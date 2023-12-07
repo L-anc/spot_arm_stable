@@ -1,1 +1,0 @@
-/home/ubuntu/robotws/src/spot_description/urdf/README.md

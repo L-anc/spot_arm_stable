@@ -1,1 +1,0 @@
-/home/ubuntu/robotws/src/spot_description/launch/spot_arm.launch.py
